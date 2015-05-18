@@ -3,8 +3,8 @@ tools for using <a href="http://api.map.baidu.com/lbsapi/cloud/lbs-cloud.htm">ba
 
 请先创建服务端应用，选择SN校验方式，获取AK(Access Key)和SK(Secure Key)。
 
-Test GeoCoding:
- http://www.xxx.com/index.php/Home/GeoCoding/testGetCoord/address/%E5%A4%A9%E5%AE%89%E9%97%A8
+* Test GeoCoding:
+   http://www.xxx.com/index.php/Home/GeoCoding/testGetCoord/address/%E5%A4%A9%E5%AE%89%E9%97%A8
 
 * 根据数据库里医院详细地址设置对应的坐标。
    http://www.xxx.com/index.php/Home/GeoCoding/setHospitalCoords
