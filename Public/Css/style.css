@@ -1,0 +1,128 @@
+/***************************** 全局设置 ****************************/
+/** 页面全局设置 **/
+.container {
+	/*width: 480px;*/
+}
+
+/** 公共头部设置 **/
+.header {
+	background-color: #669966;
+}
+.header .glyphicon {
+	color: white;
+}
+.header h4 {
+	text-align: center;
+	color: white;
+}
+
+/** 主体全局设置 **/
+.main_container {
+	margin-top: 10px;
+}
+.results_wrapper {
+	padding: 0px;
+}
+/*
+.list-group-item:first-child {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.list-group-item:last-child {
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+*/
+/****************************** 共享模块设置 ****************************/
+/** 我的关注按钮组 **/
+.follow_btns {
+	margin-top: 10px;
+	padding: 0;
+}
+/** 面板标题中的图标 **/
+.panel-heading .glyphicon {
+	font-size: 20px;
+}
+/** 面板内容中的图标 **/
+.panel-body .glyphicon {
+	font-size: 18px;
+}
+/** ajax翻页时展示提示信息 **/
+#loadNext {
+	text-align: center;
+	color: #ddd;
+	display:none;
+}
+/****************************** 个性化设置 ****************************/
+/** 身边医院 **/
+.hos_item h5 {
+	font-weight: bold;
+	line-height: 34px;
+}
+.hos_item_left {
+	border-right: 1px solid #ccc;
+}
+.hos_item_right {
+	text-align: center;
+}
+
+/** 身边医生 **/
+.doc_around_wrapper .doc_item h5 {
+	font-weight: bold;
+}
+.doc_around_wrapper .doc_item .doc_distance {
+	float: right;
+	margin-right: 20px;
+}
+.doc_around_wrapper .media-body .doc_name_1 {
+	line-height: 25px;
+}
+.doc_around_wrapper hr {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.doc_around_wrapper .doc_loc .doc_org {
+	color: #669933;
+}
+.doc_around_wrapper .doc_loc .doc_org:active {
+	color: #006600;
+}
+
+
+/** 我关注的医生 **/
+.follow_doc_wrapper .media-body .doc_name {
+	padding-top: 12px;
+}
+
+/** 医院详情 **/
+.hos_detail_wrapper .panel {
+	margin-bottom: 15px;
+}
+.hos_detail_wrapper .panel .panel-body ul {
+	padding-left: 0px;
+}
+.hos_detail_wrapper .panel .panel-body li {
+	list-style-type: none;
+	display: inline;
+}
+.hos_detail_wrapper .panel .panel-body li.pad {
+	display: inline-block;
+	padding-right: 20px;
+}
+.hos_detail_wrapper .panel .panel-body li.pad1 {
+	display: inline-block;
+	padding-right: 10px;
+}
+.open_btn {
+	margin-bottom: 15px;
+}
+
+/** 医生详情 **/
+.doc_detail_wrapper .doc_org_list a {
+	color: #669933;
+}
+
+/** 开通微站 **/
+.open_wz_wrapper .intro {
+	padding: 0 15px;
+}

@@ -1,0 +1,62 @@
+<include file="Public/header" title="{$title}" />
+<div class="container main_container">
+	<div class="row">
+		<div class="col-xs-12 results_wrapper hos_around_wrapper">
+			<ul class="list-group hos_results scroll_load_more" data-url="{:U('Home/Hospital/around', array('p'=>1))}">
+				<volist name="results" id="vo" key="i">
+					<a href="{:U('Home/Hospital/info', array('id'=>$vo['id']))}" class="list-group-item hos_item">
+						<div class="row">
+							<div class="col-xs-12">
+								<h5 class="list-group-item-heading">{$vo.name}</h5>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-9 hos_item_left">
+								<p class="">{$vo.city} {$vo.district}</p>
+								<p class="">最新活动： 
+									中医专家高大上出诊调整通知
+								</p>
+							</div>
+							<div class="col-xs-3 hos_item_right">
+								<div class="">
+									<div class="dis_title">离我</div>
+									<div class="dis_content">{$vo.distance}</div>
+								</div>
+							</div>
+						</div>
+					</a>
+				</volist>
+			</ul>
+			<div id="loadNext">
+				正在加载...
+			</div>
+			<div class="page" style="display:none;">
+				<span id="page_now">{$nowPage}</span><span id="page_has_next">{$hasNextPage}</span>
+			</div>
+		</div>
+	</div>
+</div>
+<script id="template" type="x-tmpl-mustache">
+					<a href="{:U('Home/Hospital/info', array('id'=>'--id--'))}" class="list-group-item hos_item">
+						<div class="row">
+							<div class="col-xs-12">
+								<h5 class="list-group-item-heading">--name--</h5>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-9 hos_item_left">
+								<p class="">--city-- --district--</p>
+								<p class="">最新活动： 
+								    XXX活动
+								</p>
+							</div>
+							<div class="col-xs-3 hos_item_right">
+								<div class="">
+									<div class="dis_title">离我</div>
+									<div class="dis_content">--distance--</div>
+								</div>
+							</div>
+						</div>
+					</a>
+</script>
+<include file="Public/footer" />
