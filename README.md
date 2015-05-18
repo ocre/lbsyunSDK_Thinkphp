@@ -13,7 +13,7 @@ tools for using <a href="http://api.map.baidu.com/lbsapi/cloud/lbs-cloud.htm">ba
 * 把数据库里带坐标的医院数据索引到百度LBS云存储。
    http://www.xxx.com/index.php/Home/GeoData/indexHospitals
 
-* 查询附近的医院，按距离由近及远排序
+* 查询附近的医院，按距离由近及远排序。
    http://www.xxx.com/index.php/Home/Hospital/around
 
 
